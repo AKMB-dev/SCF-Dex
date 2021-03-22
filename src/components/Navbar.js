@@ -16,7 +16,7 @@ class Navbar extends Component {
           <span className="navbar-toggler-icon">
           </span>
         </button>
-      <div class="container">
+      <div className="container">
         <ul className="nav navbar-nav ml-auto">
           <li className="nav-item">
             <a

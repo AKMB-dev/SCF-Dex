@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Content from './Content';
+import {Spinner} from './Spinner';
 import { connect } from 'react-redux';
 import {
   loadWeb3,
@@ -44,11 +45,15 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+      <Navbar />
         {
          this.props.contractsLoaded ? 
          <Content /> :
-         <div className="content"></div> 
+         <div className="content">
+         <div className="z-index-1">
+           <Spinner />
+         </div>
+         </div>
         }
       </div>
     );

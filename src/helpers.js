@@ -42,22 +42,21 @@ export const getWeb3 = () => {
         resolve(web3);
       }
       // Fallback to localhost; use dev console port by default...
+      // or invite the user to install metamask
       else {
-        try{
-        const provider = new Web3.providers.HttpProvider(
-          "http://localhost:9545"
-        );
-        const web3 = new Web3(provider);
-        console.log("No web3 instance injected, using Local web3.");
-        resolve(web3);
-      } catch (error){
-        window.alert('Please install MetaMask')
-        window.location.assign("https://metamask.io/")
-      }
+        // const provider = new Web3.providers.HttpProvider(
+        //   "http://localhost:9545"
+        // );
+        // const web3 = new Web3(provider);
+        // console.log("No web3 instance injected, using Local web3.");
+        // resolve(web3);
+           window.alert('Please install MetaMask')
+           window.location.assign("https://metamask.io/")
       }
     });
   });
 };
+
 
 export const formatBalance = (balance) => {
   // 4 decimal places
