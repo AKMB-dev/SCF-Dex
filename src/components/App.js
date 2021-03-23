@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Content from './Content';
+import PreContent from './PreContent';
 import {Spinner} from './Spinner';
 import { connect } from 'react-redux';
 import {
@@ -45,15 +46,15 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Navbar />
+
         {
-         this.props.contractsLoaded ? 
-         <Content /> :
-         <div className="content">
-         <div className="z-index-1">
-           <Spinner />
-         </div>
-         </div>
+         this.props.contractsLoaded ?
+        <div>
+        <Navbar /> 
+         <Content />
+         </div>:
+         
+         <PreContent />
         }
       </div>
     );
