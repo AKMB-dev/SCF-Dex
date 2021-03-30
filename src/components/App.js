@@ -29,7 +29,7 @@ class App extends Component {
       dispatch
     );
     if(!token) {
-      window.alert('Token smart contract not detected on the current network. Please select another network with Metamask.');
+      window.alert('Token smart contract not detected on the current network. Please select "kovan test network" with Metamask.');
       return;
     }
     const exchange = await loadExchange(
@@ -38,7 +38,7 @@ class App extends Component {
       dispatch
     );
     if(!exchange) {
-      window.alert('Exchange smart contract not detected on the current network. Please select another network with Metamask.');
+      window.alert('Exchange smart contract not detected on the current network. Please select "kovan test network" with Metamask.');
       return;
     }
   }
