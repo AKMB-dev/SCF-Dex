@@ -83,7 +83,7 @@ const showForm = (props) => {
             </div>
           </div>
           <button type="submit" 
-          className="btn btn-primary btn-sm btn-block">Buy Order</button>
+          className="btn btn-info btn-sm btn-block">Buy Order</button>
           { 
             showBuyTotal ?
            <small>
@@ -142,7 +142,7 @@ const showForm = (props) => {
           </div>
         </div>
         <button type="submit" 
-        className="btn btn-primary btn-sm btn-block">Sell Order</button>
+        className="btn btn-info btn-sm btn-block">Sell Order</button>
         {
          showSellTotal ?
          <small>

@@ -28,12 +28,13 @@
 }
 
 .content  div:nth-child(3) {
-  width: 40%
+
+  min-width: 240px
 }
 
 .content > div:last-child {
   padding-right: 0;
-  min-width: 240px
+  width: 40%
 }
 
 @media (max-width:992px) {
@@ -76,6 +77,26 @@
 .vertical-split:last-child > div:last-child {
   height: 40%
 }
+
+/*-----
+
+#horizontal-split {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: nowrap
+}
+
+#horizontal-split > div {
+  width: 50%
+}
+
+#horizontal-split > div:first-child {
+  margin-right: 8px
+}
+
+-----*/
 
 @media (max-width:992px) {
   .vertical-split {

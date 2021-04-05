@@ -30,11 +30,12 @@ class Content extends Component {
           <NewOrder />
         </div>
         <OrderBook />
+        <Trades />
         <div className="vertical-split">
           <PriceChart />          
           <MyTransactions />
         </div>
-        <Trades />
+        
         
       </div>
     );

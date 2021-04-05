@@ -5,7 +5,7 @@ import { accountSelector } from '../store/selectors';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary" role="navigation">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-secondary" role="navigation">
           <a className="navbar-brand" href="https://akmb-dev.github.io/SCF-Dex/"> SCF Dex </a>
 {/*
         <button className="navbar-toggler" 

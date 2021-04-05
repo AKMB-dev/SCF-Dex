@@ -97,7 +97,7 @@ const showForm = (props) => {
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
             <button type="submit" 
-            className="btn btn-primary btn-block btn-sm">Deposit</button>
+            className="btn btn-info btn-block btn-sm">Deposit</button>
           </div>
         </form>
 
@@ -136,7 +136,7 @@ const showForm = (props) => {
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
             <button type="submit" 
-            className="btn btn-primary btn-block btn-sm">Deposit</button>
+            className="btn btn-info btn-block btn-sm">Deposit</button>
           </div>
         </form>
 
@@ -187,7 +187,7 @@ const showForm = (props) => {
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
             <button type="submit" 
-            className="btn btn-primary btn-block btn-sm">Withdraw</button>
+            className="btn btn-info btn-block btn-sm">Withdraw</button>
           </div>
         </form>
 
@@ -226,7 +226,7 @@ const showForm = (props) => {
           </div>
           <div className="col-12 col-sm-auto pl-sm-0">
             <button type="submit" 
-            className="btn btn-primary btn-block btn-sm">Withdraw</button>
+            className="btn btn-info btn-block btn-sm">Withdraw</button>
           </div>
         </form>
 
