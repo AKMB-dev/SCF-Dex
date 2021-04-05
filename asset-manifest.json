@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SCF-Dex/static/css/main.7a37552e.chunk.css",
-    "main.js": "/SCF-Dex/static/js/main.0e576a98.chunk.js",
-    "main.js.map": "/SCF-Dex/static/js/main.0e576a98.chunk.js.map",
+    "main.css": "/SCF-Dex/static/css/main.57fbaacc.chunk.css",
+    "main.js": "/SCF-Dex/static/js/main.a23fcf44.chunk.js",
+    "main.js.map": "/SCF-Dex/static/js/main.a23fcf44.chunk.js.map",
     "runtime-main.js": "/SCF-Dex/static/js/runtime-main.80841dd2.js",
     "runtime-main.js.map": "/SCF-Dex/static/js/runtime-main.80841dd2.js.map",
     "static/css/2.658248ec.chunk.css": "/SCF-Dex/static/css/2.658248ec.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.33d979eb.chunk.js.map": "/SCF-Dex/static/js/3.33d979eb.chunk.js.map",
     "index.html": "/SCF-Dex/index.html",
     "static/css/2.658248ec.chunk.css.map": "/SCF-Dex/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.7a37552e.chunk.css.map": "/SCF-Dex/static/css/main.7a37552e.chunk.css.map",
+    "static/css/main.57fbaacc.chunk.css.map": "/SCF-Dex/static/css/main.57fbaacc.chunk.css.map",
     "static/js/2.71c0d1c7.chunk.js.LICENSE.txt": "/SCF-Dex/static/js/2.71c0d1c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.80841dd2.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.71c0d1c7.chunk.js",
-    "static/css/main.7a37552e.chunk.css",
-    "static/js/main.0e576a98.chunk.js"
+    "static/css/main.57fbaacc.chunk.css",
+    "static/js/main.a23fcf44.chunk.js"
   ]
 }
