@@ -301,6 +301,55 @@ class PreContent extends Component {
       </div>
 
 
+    
+      {/*} Trades */}
+      <div className="vertical">
+        <div className="card bg-dark text-white">
+          <div className="card-header">
+            Trades
+          </div>
+          <div className="card-body">
+            <table className="table table-dark table-sm small">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>SCF</th>
+                  <th>SCF/ETH</th>
+                </tr>
+              </thead>
+                <tbody>
+                      <tr>
+                        <td className="text-muted">
+                        00:00:00 am 00/00
+                        </td>
+                        <td>000</td>
+                        <td className="text-success">
+                        0.000000</td>
+                      </tr>
+                                <tr>
+                        <td className="text-muted">
+                        00:00:00 am 00/00
+                        </td>
+                        <td>000</td>
+                        <td className="text-danger">
+                        0.000000</td>
+                      </tr>
+                                <tr>
+                        <td className="text-muted">
+                        00:00:00 am 00/00
+                        </td>
+                        <td>000</td>
+                        <td className="text-success">
+                        0.000000</td>
+                      </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
         <div className="vertical-split">
 
 
@@ -410,51 +459,7 @@ class PreContent extends Component {
 
 
 
-        {/*} Trades */}
-      <div className="vertical">
-        <div className="card bg-dark text-white">
-          <div className="card-header">
-            Trades
-          </div>
-          <div className="card-body">
-            <table className="table table-dark table-sm small">
-              <thead>
-                <tr>
-                  <th>Time</th>
-                  <th>SCF</th>
-                  <th>SCF/ETH</th>
-                </tr>
-              </thead>
-                <tbody>
-                      <tr>
-                        <td className="text-muted">
-                        00:00:00 am 00/00
-                        </td>
-                        <td>000</td>
-                        <td className="text-success">
-                        0.000000</td>
-                      </tr>
-                                <tr>
-                        <td className="text-muted">
-                        00:00:00 am 00/00
-                        </td>
-                        <td>000</td>
-                        <td className="text-danger">
-                        0.000000</td>
-                      </tr>
-                                <tr>
-                        <td className="text-muted">
-                        00:00:00 am 00/00
-                        </td>
-                        <td>000</td>
-                        <td className="text-success">
-                        0.000000</td>
-                      </tr>
-                </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
+        
 
         
 </div>
