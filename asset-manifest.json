@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SCF-Dex/static/css/main.57fbaacc.chunk.css",
-    "main.js": "/SCF-Dex/static/js/main.14245fa1.chunk.js",
-    "main.js.map": "/SCF-Dex/static/js/main.14245fa1.chunk.js.map",
+    "main.js": "/SCF-Dex/static/js/main.59d17090.chunk.js",
+    "main.js.map": "/SCF-Dex/static/js/main.59d17090.chunk.js.map",
     "runtime-main.js": "/SCF-Dex/static/js/runtime-main.80841dd2.js",
     "runtime-main.js.map": "/SCF-Dex/static/js/runtime-main.80841dd2.js.map",
     "static/css/2.658248ec.chunk.css": "/SCF-Dex/static/css/2.658248ec.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.71c0d1c7.chunk.js",
     "static/css/main.57fbaacc.chunk.css",
-    "static/js/main.14245fa1.chunk.js"
+    "static/js/main.59d17090.chunk.js"
   ]
 }
